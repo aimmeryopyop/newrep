@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+
+}
+nav{
+    background-color: #181818;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}   
+.logo{
+    display: inline-block;
+    margin: 12px 0 10px 20px;
+}
+.links{
+    float: right;
+    margin: 20px 50px 0 0;
+    word-spacing: 40px;
+    transition: 1s;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+}
+.links a:hover{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.container1{
+    height: 450px;
+    width: 1200px;
+    background-color: rgba(102, 100, 100, 0.4); 
+    color: white;
+    text-align: center;
+    margin: 100px auto;
+    margin-bottom: 50px;
+    margin-top: 130px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hr2{
+    width: 500px;
+    height: 2px;
+    background-color: white;
+    border: none;
+}
+.landing-title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    font-size: 60px;
+    top
+}
+
+.landing-title p{
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+.get-to{
+    color: white;
+    font-family: arial;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.get-to h1{
+    margin-top: 90px;
+    padding: 0;
+    margin-left: -780px;
+}
+.pro-container{
+    height: 500px;
+    width: 350px;
+    background-color: aliceblue;
+    margin: 20px;
+    margin-left: 100px;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    float: left;
+}
+
+.pro-container img{
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(199, 150, 150);
+}
+
+.pro-container-A{
+    height: 500px;
+    width: 350px;
+    background-color: aliceblue;
+    margin: 20px;
+    margin-left: 100px;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    float: right;
+    margin-right: 100px;
+}
+
+.pro-container-A img{
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(199, 150, 150);
+}
+
+
+.description-A{
+    margin-left: 100px;
+    color: white;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.description-A p{
+    font-size: 20px;
+}
+
+.names{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -20px;
+    margin-bottom: 100px;
+}
+.names h5{
+    margin-top: -20px;
+    margin-bottom: -55px;
+    font-size: 15px;
+}
+
+.cv-button{
+    padding: 15px 35px;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.cv-button:hover{
+    color: rgb(0, 0, 0);
+    background-color: #ff6f6f;
+}
+
+.description{
+    color: white;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.description p{
+    margin-left: 400px;
+}
+.description h1{
+    font-size: 50px;
+    margin-top: -10px;
+}
+.contacts{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.span{
+    color: rgb(235, 102, 102);
+}
+
+.icon{
+    text-decoration: none;
+    color: white;
+}
+.icon icon-icon{
+    color: white;
+}
+
+.socials{
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+    margin-top: 40px;
+    float: left;
+    align-items: flex-start;
+}
+
+.socials a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.socials2{
+    display: flex; 
+    flex-direction: column;
+    gap: 20px; 
+    margin-top: 40px;
+    margin-right: 100px;
+    float: right;
+    align-items: flex-start;
+}
+
+.socials2 a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+}
+.contacts{
+    background-color: #3b3b3b;
+    height: 70vh;
+    margin-top: -50px;
+}
+
+.contacts h1{
+    font-size: 50px;
+}
