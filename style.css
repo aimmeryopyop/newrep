@@ -236,8 +236,13 @@ section{
     background-color: #3b3b3b;
     height: 70vh;
     margin-top: -50px;
+    
 }
 
 .contacts h1{
     font-size: 50px;
+}
+.contacts h5{
+    font-size: 20px;
+    padding-bottom: 20px;
 }
