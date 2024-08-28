@@ -280,3 +280,16 @@ section{
 .contacts-icon{
     text-decoration: none;
 }
+
+@media only screen and (max-width: 428px){
+    .container1{
+    height: 450px;
+    width: 300px;
+    background-color: rgba(102, 100, 100, 0.4); 
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 40px;
+    display: flex;
+    }
+}
