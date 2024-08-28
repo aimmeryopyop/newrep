@@ -38,6 +38,10 @@ nav{
     border-radius: 50px;
     font-weight: bold;
 }
+.links a:active{
+    background-color: rgba(102, 100, 100, 0.4);
+    color: whitesmoke;
+}
 .container1{
     height: 450px;
     width: 1200px;
