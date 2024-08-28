@@ -239,10 +239,44 @@ section{
     
 }
 
+.contacts-sec{
+    color:white;
+    text-align: center;
+}
+
+
 .contacts h1{
     font-size: 50px;
 }
+
+.contacts p{
+    font-size: 20px;
+}
+
+.socials3{
+    display: flex; 
+    font-size: 30px;
+    text-align: center;
+    margin-left: 100px;
+    gap: 200px; 
+    margin-top: 150px;
+    margin-right: 100px;
+    align-items: flex-start;
+    
+}
+
+.socials3 a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
 .contacts h5{
     font-size: 20px;
     padding-bottom: 20px;
+}
+
+.contacts-icon{
+    text-decoration: none;
 }
